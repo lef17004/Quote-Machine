@@ -11,7 +11,40 @@
 		EFE3BD662537D99600419185 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE3BD652537D99600419185 /* ContentView.swift */; };
 		EFE3BD682537D99700419185 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFE3BD672537D99700419185 /* Assets.xcassets */; };
 		EFE3BD6B2537D99700419185 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFE3BD6A2537D99700419185 /* Preview Assets.xcassets */; };
+		EFE3BD742537DAA300419185 /* NewQuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE3BD732537DAA300419185 /* NewQuoteView.swift */; };
+		EFE3BD782537DF2000419185 /* Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE3BD772537DF1F00419185 /* Quotes.swift */; };
+		EFE3BD87253A3D6B00419185 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE3BD86253A3D6B00419185 /* WidgetKit.framework */; };
+		EFE3BD89253A3D6B00419185 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE3BD88253A3D6B00419185 /* SwiftUI.framework */; };
+		EFE3BD8C253A3D6B00419185 /* QuoteMachineWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE3BD8B253A3D6B00419185 /* QuoteMachineWidget.swift */; };
+		EFE3BD8F253A3D6C00419185 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFE3BD8E253A3D6C00419185 /* Assets.xcassets */; };
+		EFE3BD91253A3D6C00419185 /* QuoteMachineWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = EFE3BD8D253A3D6B00419185 /* QuoteMachineWidget.intentdefinition */; };
+		EFE3BD92253A3D6C00419185 /* QuoteMachineWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = EFE3BD8D253A3D6B00419185 /* QuoteMachineWidget.intentdefinition */; };
+		EFE3BD95253A3D6C00419185 /* QuoteMachineWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EFE3BD84253A3D6B00419185 /* QuoteMachineWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFE3BD93253A3D6C00419185 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFE3BD582537D99600419185 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFE3BD83253A3D6B00419185;
+			remoteInfo = QuoteMachineWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EFE3BD99253A3D6C00419185 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EFE3BD95253A3D6C00419185 /* QuoteMachineWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		EFE3BD602537D99600419185 /* Quote_Machine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quote_Machine.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -20,6 +53,17 @@
 		EFE3BD672537D99700419185 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFE3BD6A2537D99700419185 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EFE3BD6C2537D99700419185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFE3BD732537DAA300419185 /* NewQuoteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewQuoteView.swift; sourceTree = "<group>"; };
+		EFE3BD772537DF1F00419185 /* Quotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quotes.swift; sourceTree = "<group>"; };
+		EFE3BD7E253A3D2100419185 /* Quote_Machine.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Quote_Machine.entitlements; sourceTree = "<group>"; };
+		EFE3BD84253A3D6B00419185 /* QuoteMachineWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = QuoteMachineWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE3BD86253A3D6B00419185 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		EFE3BD88253A3D6B00419185 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		EFE3BD8B253A3D6B00419185 /* QuoteMachineWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteMachineWidget.swift; sourceTree = "<group>"; };
+		EFE3BD8D253A3D6B00419185 /* QuoteMachineWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = QuoteMachineWidget.intentdefinition; sourceTree = "<group>"; };
+		EFE3BD8E253A3D6C00419185 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFE3BD90253A3D6C00419185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFE3BD9C253A3D8C00419185 /* QuoteMachineWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QuoteMachineWidgetExtension.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,13 +74,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EFE3BD81253A3D6B00419185 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE3BD89253A3D6B00419185 /* SwiftUI.framework in Frameworks */,
+				EFE3BD87253A3D6B00419185 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		EFE3BD572537D99600419185 = {
 			isa = PBXGroup;
 			children = (
+				EFE3BD9C253A3D8C00419185 /* QuoteMachineWidgetExtension.entitlements */,
 				EFE3BD622537D99600419185 /* Quote_Machine */,
+				EFE3BD8A253A3D6B00419185 /* QuoteMachineWidget */,
+				EFE3BD85253A3D6B00419185 /* Frameworks */,
 				EFE3BD612537D99600419185 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				EFE3BD602537D99600419185 /* Quote_Machine.app */,
+				EFE3BD84253A3D6B00419185 /* QuoteMachineWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,8 +109,11 @@
 		EFE3BD622537D99600419185 /* Quote_Machine */ = {
 			isa = PBXGroup;
 			children = (
+				EFE3BD7E253A3D2100419185 /* Quote_Machine.entitlements */,
 				EFE3BD632537D99600419185 /* Quote_MachineApp.swift */,
 				EFE3BD652537D99600419185 /* ContentView.swift */,
+				EFE3BD772537DF1F00419185 /* Quotes.swift */,
+				EFE3BD732537DAA300419185 /* NewQuoteView.swift */,
 				EFE3BD672537D99700419185 /* Assets.xcassets */,
 				EFE3BD6C2537D99700419185 /* Info.plist */,
 				EFE3BD692537D99700419185 /* Preview Content */,
@@ -69,6 +129,26 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		EFE3BD85253A3D6B00419185 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFE3BD86253A3D6B00419185 /* WidgetKit.framework */,
+				EFE3BD88253A3D6B00419185 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFE3BD8A253A3D6B00419185 /* QuoteMachineWidget */ = {
+			isa = PBXGroup;
+			children = (
+				EFE3BD8B253A3D6B00419185 /* QuoteMachineWidget.swift */,
+				EFE3BD8D253A3D6B00419185 /* QuoteMachineWidget.intentdefinition */,
+				EFE3BD8E253A3D6C00419185 /* Assets.xcassets */,
+				EFE3BD90253A3D6C00419185 /* Info.plist */,
+			);
+			path = QuoteMachineWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -79,15 +159,34 @@
 				EFE3BD5C2537D99600419185 /* Sources */,
 				EFE3BD5D2537D99600419185 /* Frameworks */,
 				EFE3BD5E2537D99600419185 /* Resources */,
+				EFE3BD99253A3D6C00419185 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				EFE3BD94253A3D6C00419185 /* PBXTargetDependency */,
 			);
 			name = Quote_Machine;
 			productName = Quote_Machine;
 			productReference = EFE3BD602537D99600419185 /* Quote_Machine.app */;
 			productType = "com.apple.product-type.application";
+		};
+		EFE3BD83253A3D6B00419185 /* QuoteMachineWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFE3BD96253A3D6C00419185 /* Build configuration list for PBXNativeTarget "QuoteMachineWidgetExtension" */;
+			buildPhases = (
+				EFE3BD80253A3D6B00419185 /* Sources */,
+				EFE3BD81253A3D6B00419185 /* Frameworks */,
+				EFE3BD82253A3D6B00419185 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuoteMachineWidgetExtension;
+			productName = QuoteMachineWidgetExtension;
+			productReference = EFE3BD84253A3D6B00419185 /* QuoteMachineWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -99,6 +198,9 @@
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
 					EFE3BD5F2537D99600419185 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					EFE3BD83253A3D6B00419185 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
 				};
@@ -117,6 +219,7 @@
 			projectRoot = "";
 			targets = (
 				EFE3BD5F2537D99600419185 /* Quote_Machine */,
+				EFE3BD83253A3D6B00419185 /* QuoteMachineWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +234,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EFE3BD82253A3D6B00419185 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE3BD8F253A3D6C00419185 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,12 +249,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFE3BD92253A3D6C00419185 /* QuoteMachineWidget.intentdefinition in Sources */,
+				EFE3BD782537DF2000419185 /* Quotes.swift in Sources */,
+				EFE3BD742537DAA300419185 /* NewQuoteView.swift in Sources */,
 				EFE3BD662537D99600419185 /* ContentView.swift in Sources */,
 				EFE3BD642537D99600419185 /* Quote_MachineApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EFE3BD80253A3D6B00419185 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE3BD8C253A3D6B00419185 /* QuoteMachineWidget.swift in Sources */,
+				EFE3BD91253A3D6C00419185 /* QuoteMachineWidget.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFE3BD94253A3D6C00419185 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFE3BD83253A3D6B00419185 /* QuoteMachineWidgetExtension */;
+			targetProxy = EFE3BD93253A3D6C00419185 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		EFE3BD6D2537D99700419185 /* Debug */ = {
@@ -265,8 +396,10 @@
 		EFE3BD702537D99700419185 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Quote_Machine/Quote_Machine.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Quote_Machine/Preview Content\"";
 				DEVELOPMENT_TEAM = W7NRZ36TBY;
@@ -277,7 +410,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.michaellefevre.Quote-Machine";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaellefevre.testing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -287,8 +420,10 @@
 		EFE3BD712537D99700419185 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Quote_Machine/Quote_Machine.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Quote_Machine/Preview Content\"";
 				DEVELOPMENT_TEAM = W7NRZ36TBY;
@@ -299,8 +434,52 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.michaellefevre.Quote-Machine";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaellefevre.testing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFE3BD97253A3D6C00419185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = QuoteMachineWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7NRZ36TBY;
+				INFOPLIST_FILE = QuoteMachineWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaellefevre.testing.QuoteMachineWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFE3BD98253A3D6C00419185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = QuoteMachineWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7NRZ36TBY;
+				INFOPLIST_FILE = QuoteMachineWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaellefevre.testing.QuoteMachineWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -323,6 +502,15 @@
 			buildConfigurations = (
 				EFE3BD702537D99700419185 /* Debug */,
 				EFE3BD712537D99700419185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFE3BD96253A3D6C00419185 /* Build configuration list for PBXNativeTarget "QuoteMachineWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE3BD97253A3D6C00419185 /* Debug */,
+				EFE3BD98253A3D6C00419185 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
