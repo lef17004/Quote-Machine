@@ -20,6 +20,11 @@
 		EFE3BD91253A3D6C00419185 /* QuoteMachineWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = EFE3BD8D253A3D6B00419185 /* QuoteMachineWidget.intentdefinition */; };
 		EFE3BD92253A3D6C00419185 /* QuoteMachineWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = EFE3BD8D253A3D6B00419185 /* QuoteMachineWidget.intentdefinition */; };
 		EFE3BD95253A3D6C00419185 /* QuoteMachineWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EFE3BD84253A3D6B00419185 /* QuoteMachineWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EFE3BDA6253A759300419185 /* widget.png in Resources */ = {isa = PBXBuildFile; fileRef = EFE3BDA5253A759300419185 /* widget.png */; };
+		EFE3BDAA253A759800419185 /* firstlaunch.png in Resources */ = {isa = PBXBuildFile; fileRef = EFE3BDA9253A759800419185 /* firstlaunch.png */; };
+		EFE3BDAE253A75A700419185 /* addquote.png in Resources */ = {isa = PBXBuildFile; fileRef = EFE3BDAD253A75A700419185 /* addquote.png */; };
+		EFE3BDB2253A75AC00419185 /* nightmode.png in Resources */ = {isa = PBXBuildFile; fileRef = EFE3BDB1253A75AC00419185 /* nightmode.png */; };
+		EFE3BDB6253A75B200419185 /* nightmode2.png in Resources */ = {isa = PBXBuildFile; fileRef = EFE3BDB5253A75B200419185 /* nightmode2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +69,12 @@
 		EFE3BD8E253A3D6C00419185 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFE3BD90253A3D6C00419185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFE3BD9C253A3D8C00419185 /* QuoteMachineWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QuoteMachineWidgetExtension.entitlements; sourceTree = "<group>"; };
+		EFE3BDA1253A6FBC00419185 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EFE3BDA5253A759300419185 /* widget.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = widget.png; sourceTree = "<group>"; };
+		EFE3BDA9253A759800419185 /* firstlaunch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firstlaunch.png; sourceTree = "<group>"; };
+		EFE3BDAD253A75A700419185 /* addquote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addquote.png; sourceTree = "<group>"; };
+		EFE3BDB1253A75AC00419185 /* nightmode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nightmode.png; sourceTree = "<group>"; };
+		EFE3BDB5253A75B200419185 /* nightmode2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nightmode2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,11 +100,13 @@
 		EFE3BD572537D99600419185 = {
 			isa = PBXGroup;
 			children = (
+				EFE3BDA1253A6FBC00419185 /* README.md */,
 				EFE3BD9C253A3D8C00419185 /* QuoteMachineWidgetExtension.entitlements */,
 				EFE3BD622537D99600419185 /* Quote_Machine */,
 				EFE3BD8A253A3D6B00419185 /* QuoteMachineWidget */,
 				EFE3BD85253A3D6B00419185 /* Frameworks */,
 				EFE3BD612537D99600419185 /* Products */,
+				EFE3BDA4253A757600419185 /* Screenshots */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,6 +160,18 @@
 				EFE3BD90253A3D6C00419185 /* Info.plist */,
 			);
 			path = QuoteMachineWidget;
+			sourceTree = "<group>";
+		};
+		EFE3BDA4253A757600419185 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				EFE3BDA5253A759300419185 /* widget.png */,
+				EFE3BDA9253A759800419185 /* firstlaunch.png */,
+				EFE3BDAD253A75A700419185 /* addquote.png */,
+				EFE3BDB1253A75AC00419185 /* nightmode.png */,
+				EFE3BDB5253A75B200419185 /* nightmode2.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +254,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFE3BDA6253A759300419185 /* widget.png in Resources */,
+				EFE3BDB2253A75AC00419185 /* nightmode.png in Resources */,
+				EFE3BDAE253A75A700419185 /* addquote.png in Resources */,
+				EFE3BDB6253A75B200419185 /* nightmode2.png in Resources */,
+				EFE3BDAA253A759800419185 /* firstlaunch.png in Resources */,
 				EFE3BD6B2537D99700419185 /* Preview Assets.xcassets in Resources */,
 				EFE3BD682537D99700419185 /* Assets.xcassets in Resources */,
 			);
